@@ -1,0 +1,43 @@
+<app-facultynav></app-facultynav>
+<div class="map"></div>
+	
+	<section id="contact-page">
+        <div class="container">
+            <div class="center">
+            <h1>Welcome Faculty</h1> 
+            
+            	<hr>
+            	<h2>Category List : <a routerLink="/addcate">Add</a></h2>
+
+            	<select>
+            		<option *ngFor="let cate of category">
+	            		
+	            				{{cate.cate_name}}
+	            		
+            		</option>
+            	</select>
+
+            	<table class="table">
+	            	<tr>
+	            		<th>
+	            				Category NAme 
+	            		</th>
+            		</tr>
+
+					<tr *ngFor="let cate of category">
+	            		<th>
+	            				{{cate.cate_name}}
+	            		</th>
+            		</tr>
+
+
+            	</table>	
+
+
+
+
+
+
+            </div>
+            </div>
+            </section>  
