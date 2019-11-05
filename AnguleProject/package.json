@@ -23,7 +23,7 @@
     "core-js": "^2.5.4",
     "express-mailer": "^0.3.1",
     "express-session": "^1.15.6",
-    "mongoose": "^5.2.0",
+    "mongoose": "^5.7.5",
     "nodemailer": "^4.6.7",
     "random-number": "0.0.9",
     "rxjs": "^6.2.1",
